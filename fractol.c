@@ -6,7 +6,7 @@
 /*   By: serhouni <serhouni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/07 12:42:06 by serhouni          #+#    #+#             */
-/*   Updated: 2022/12/19 03:39:31 by serhouni         ###   ########.fr       */
+/*   Updated: 2022/12/19 04:14:40 by serhouni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,14 +41,6 @@ static int	handle_agruments(int argc, char const *argv[], t_data *data)
 		data->set_id = 0;
 		return (1);
 	}
-	// else if (argc == 4 && ft_strcmp(JULIA_SET, argv[1]) == 0
-	// 	&& is_number(argv[2]) && is_number(argv[3]))
-	// {
-	// 	data->set_id = 1;
-	// 	data->julia_const_a = ft_atoi(argv[2]);
-	// 	data->julia_const_b = ft_atoi(argv[3]);
-	// 	return (1);
-	// }
 	else if (argc == 2 && ft_strcmp(JULIA_SET, argv[1]) == 0)
 	{
 		data->set_id = 1;

@@ -6,7 +6,7 @@
 /*   By: serhouni <serhouni@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/08 16:28:46 by serhouni          #+#    #+#             */
-/*   Updated: 2022/12/19 03:44:29 by serhouni         ###   ########.fr       */
+/*   Updated: 2022/12/19 04:15:08 by serhouni         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,5 @@ int	handle_mouse_move(int x, int y, t_data *data)
 	data->julia_const_a = x;
 	data->julia_const_b = y;
 	render_set(data);
-	return 0;
+	return (0);
 }
-
